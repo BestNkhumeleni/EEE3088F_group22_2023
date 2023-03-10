@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Best Nkhumeleni\Desktop\3088F_group22\STM32 interfacte\STM32 interfacte.kicad_sch</source>
+    <date>2023/03/06 08:38:08</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>STM32 interfacte.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>DE9_Receptacle</value>
+      <datasheet> ~</datasheet>
+      <libsource lib="Custom spi connector" part="Custom_SPI_female" description="9-pin female receptacle socket D-SUB connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 interfacte.kicad_sch"/>
+      <property name="ki_description" value="9-pin female receptacle socket D-SUB connector"/>
+      <property name="ki_keywords" value="connector receptacle female D-SUB DB9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dec2ab27-4db8-4aa5-aa0f-13746e0847d7</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DE9_Receptacle</value>
+      <datasheet> ~</datasheet>
+      <libsource lib="Custom spi connector" part="Custom_SPI_female" description="9-pin female receptacle socket D-SUB connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 interfacte.kicad_sch"/>
+      <property name="ki_description" value="9-pin female receptacle socket D-SUB connector"/>
+      <property name="ki_keywords" value="connector receptacle female D-SUB DB9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdc9ff48-5371-474d-b5f2-1523db5e7583</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>4014</value>
+      <libsource lib="4xxx_IEEE" part="4014" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 interfacte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89961e29-f5c0-4d75-8fa8-978ac3baa40c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <libsource lib="Custom spi connector" part="Two_pin_female_connecg" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 interfacte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e47980db-4404-48dd-83db-8473c0dd45e5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx_IEEE" part="4014">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P7" type="input"/>
+        <pin num="2" name="Q5" type="output"/>
+        <pin num="3" name="Q7" type="output"/>
+        <pin num="4" name="P3" type="input"/>
+        <pin num="5" name="P2" type="input"/>
+        <pin num="6" name="P1" type="input"/>
+        <pin num="7" name="P0" type="input"/>
+        <pin num="8" name="Vss" type="power_in"/>
+        <pin num="9" name="PL" type="input"/>
+        <pin num="10" name="CP" type="input"/>
+        <pin num="11" name="DS" type="input"/>
+        <pin num="12" name="Q6" type="output"/>
+        <pin num="13" name="P4" type="input"/>
+        <pin num="14" name="P5" type="input"/>
+        <pin num="15" name="P6" type="input"/>
+        <pin num="16" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom spi connector" part="Custom_SPI_female">
+      <description>9-pin female receptacle socket D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DE9_Receptacle</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SPI_input" type="input"/>
+        <pin num="2" name="SPI_input" type="input"/>
+        <pin num="3" name="SPI_input" type="input"/>
+        <pin num="4" name="ADC_input" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom spi connector" part="Two_pin_female_connecg">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx_IEEE">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/4xxx_IEEE.kicad_sym</uri>
+    </library>
+    <library logical="Custom spi connector">
+      <uri>C:/Users/Best Nkhumeleni/Desktop/3088F_group22/STM32 interfacte/Custom spi connector.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DAC output">
+      <node ref="J3" pin="4" pinfunction="ADC_input" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="P0" pintype="input"/>
+    </net>
+    <net code="2" name="Earth">
+      <node ref="U1" pin="8" pinfunction="Vss" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(J1-ADC_input)">
+      <node ref="J1" pin="4" pinfunction="ADC_input" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="P4" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(U1-DS)">
+      <node ref="U1" pin="11" pinfunction="DS" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U1-P1)">
+      <node ref="J3" pin="3" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="P1" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U1-P2)">
+      <node ref="J3" pin="2" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="P2" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-P3)">
+      <node ref="J3" pin="1" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="P3" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-P5)">
+      <node ref="J1" pin="3" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="P5" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U1-P6)">
+      <node ref="J1" pin="2" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="P6" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U1-P7)">
+      <node ref="J1" pin="1" pinfunction="SPI_input" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="P7" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U1-PL)">
+      <node ref="U1" pin="9" pinfunction="PL" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="12" name="VDD">
+      <node ref="U1" pin="16" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="13" name="unconnected-(U1-CP-Pad10)">
+      <node ref="U1" pin="10" pinfunction="CP" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-Q5-Pad2)">
+      <node ref="U1" pin="2" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Q6-Pad12)">
+      <node ref="U1" pin="12" pinfunction="Q6" pintype="output"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Q7-Pad3)">
+      <node ref="U1" pin="3" pinfunction="Q7" pintype="output"/>
+    </net>
+  </nets>
+</export>

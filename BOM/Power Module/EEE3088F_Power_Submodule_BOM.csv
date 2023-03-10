@@ -1,0 +1,22 @@
+Reference,Value,Footprint,Datasheet,Prices,Suppliers,Qty
+"C1, C3, C4",4.7uf,Capacitor_SMD:C_0603_1608Metric,~,0.0806,JLCPCB Parts,3
+"C2, C5",4.7 uf,Capacitor_SMD:C_0603_1608Metric,~,$0.08 ,JLCPCB Parts,2
+D1,LED,LED_SMD:LED_0603_1608Metric,~,$0.01 ,JLCPCB Parts,1
+D2,1N47xxA,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,https://www.vishay.com/docs/85816/1n4728a.pdf,$0.12 ,JLCPCB Parts,1
+J1,USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,~,$0.59 ,JLCPCB Parts,1
+J3_Battery1,Conn_01x02,Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat,~,$0.32 ,JLCPCB Parts,1
+L1,L,Inductor_SMD:L_0201_0603Metric,~,$0.01 ,JLCPCB Parts,1
+"Q1, Q2",PMOS,,https://ngspice.sourceforge.io/docs/ngspice-manual.pdf,$0.69 ,JLCPCB Parts,2
+R1,2k,Resistor_SMD:R_0603_1608Metric,~,$0.00 ,JLCPCB Parts,1
+R2,470,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R3,3.6M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R4,3M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R5,2.5M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R6,150k,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R7,1M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+R8,10M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
+U1,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,$0.69 ,JLCPCB Parts,1
+U3,LM3670MF,Package_TO_SOT_SMD:TSOT-23-5,http://www.ti.com/lit/ds/symlink/lm3670.pdf,$1.68 ,JLCPCB Parts,1
+U4,LM2902,,http://www.ti.com/lit/ds/symlink/lm2902-n.pdf,$0.30 ,JLCPCB Parts,1
+,,,,,,
+,,,,Total = $4.4925,,
