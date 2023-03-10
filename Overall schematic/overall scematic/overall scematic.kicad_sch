@@ -1,5 +1,99 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9230863d-68c5-4e85-a5d4-0f54ecfbae5b)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 60.96) (size 54.61 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5eab94a0-95fb-4405-9961-390291429e6b)
+    (property "Sheetname" "Humidity sensor" (at 25.4 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digital_sensor.kicad_sch" (at 25.4 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 24.13) (size 53.34 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 77c27006-7265-4143-b726-ddb8b8788c58)
+    (property "Sheetname" "Memory element" (at 25.4 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "memory.kicad_sch" (at 25.4 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 125.73 24.13) (size 67.31 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 816cf8a9-a5fb-405c-ad63-48cc867f8579)
+    (property "Sheetname" "Power module" (at 125.73 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_module.kicad_sch" (at 125.73 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 113.03) (size 53.34 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8c854172-02c8-417f-bf92-0562f4d1bdee)
+    (property "Sheetname" "digital temparature sensor" (at 26.67 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digi temp.kicad_sch" (at 26.67 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 90.17) (size 53.34 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c494e013-0c38-49c8-84da-4f33138ae19d)
+    (property "Sheetname" "analogue temparature sensor" (at 26.67 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "analogue_temparature.kicad_sch" (at 26.67 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
