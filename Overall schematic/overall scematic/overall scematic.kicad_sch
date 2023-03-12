@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "overall schematic")
+    (date "2023-03-10")
+    (rev "version1")
+  )
+
   (lib_symbols
   )
 
@@ -72,6 +78,23 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 127 66.04) (size 67.31 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8d35112e-3dcb-4f8a-ab75-188a6b3d82be)
+    (property "Sheetname" "Micro controller pin outs" (at 127 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "micro controlter interface.kicad_sch" (at 127 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "overall scematic"
+        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "7"))
       )
     )
   )

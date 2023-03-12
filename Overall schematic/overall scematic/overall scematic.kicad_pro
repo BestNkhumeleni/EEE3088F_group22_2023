@@ -491,6 +491,10 @@
     [
       "816cf8a9-a5fb-405c-ad63-48cc867f8579",
       "Power module"
+    ],
+    [
+      "8d35112e-3dcb-4f8a-ab75-188a6b3d82be",
+      "Micro controller pin outs"
     ]
   ],
   "text_variables": {}
