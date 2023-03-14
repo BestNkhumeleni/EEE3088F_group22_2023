@@ -31,23 +31,6 @@
     )
   )
 
-  (sheet (at 25.4 24.13) (size 53.34 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 77c27006-7265-4143-b726-ddb8b8788c58)
-    (property "Sheetname" "Memory element" (at 25.4 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "memory.kicad_sch" (at 25.4 50.1146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "overall scematic"
-        (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b" (page "2"))
-      )
-    )
-  )
-
   (sheet (at 125.73 24.13) (size 67.31 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
