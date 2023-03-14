@@ -2144,7 +2144,7 @@
   (symbol (lib_id "power:GND") (at 156.21 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 031bd08c-7e73-4ec5-838e-8e2d34a0c8e9)
-    (property "Reference" "#PWR03" (at 156.21 118.11 0)
+    (property "Reference" "#PWR?" (at 156.21 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 116.84 0)
@@ -2160,7 +2160,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2169,7 +2169,7 @@
   (symbol (lib_id "power:GND") (at 242.57 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20782f7b-976a-4fca-bcf3-7f8f24480fc2)
-    (property "Reference" "#PWR05" (at 242.57 44.45 0)
+    (property "Reference" "#PWR?" (at 242.57 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 46.99 0)
@@ -2185,7 +2185,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2194,7 +2194,7 @@
   (symbol (lib_id "MCU_ST_STM32F0:STM32F030R8Tx") (at 171.45 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4061bc8b-695b-46e5-9256-076e26cef3aa)
-    (property "Reference" "U2" (at 175.9459 129.54 0)
+    (property "Reference" "U?" (at 175.9459 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F030R8Tx" (at 175.9459 132.08 0)
@@ -2267,7 +2267,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2276,7 +2276,7 @@
   (symbol (lib_id "Custom spi connector:DB25_Receptacle") (at 77.47 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47924690-972e-45d9-bb90-6eaf255f8a6f)
-    (property "Reference" "J2" (at 77.47 43.18 0)
+    (property "Reference" "J?" (at 77.47 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DB25_Receptacle" (at 77.47 45.72 0)
@@ -2316,7 +2316,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "J2") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -2325,7 +2325,7 @@
   (symbol (lib_id "power:GND") (at 152.4 43.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b16e69d-01ec-4cf3-95e0-0017ca1ad3d8)
-    (property "Reference" "#PWR08" (at 152.4 36.83 0)
+    (property "Reference" "#PWR?" (at 152.4 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 39.37 0)
@@ -2341,7 +2341,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2350,7 +2350,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 219.71 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5faef497-bf3e-4d8d-ad0e-24ec13d39d97)
-    (property "Reference" "#FLG02" (at 219.71 32.385 0)
+    (property "Reference" "#FLG?" (at 219.71 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 219.71 30.48 0)
@@ -2366,7 +2366,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
       )
     )
@@ -2375,7 +2375,7 @@
   (symbol (lib_id "power:GND") (at 92.71 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a61013c-48e1-4b3e-9098-4db62337d4e1)
-    (property "Reference" "#PWR02" (at 92.71 118.11 0)
+    (property "Reference" "#PWR?" (at 92.71 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 116.84 0)
@@ -2391,7 +2391,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2400,7 +2400,7 @@
   (symbol (lib_id "power:GND") (at 125.73 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 847d854a-67bc-45d0-a948-608b2a44149b)
-    (property "Reference" "#PWR06" (at 125.73 63.5 0)
+    (property "Reference" "#PWR?" (at 125.73 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 62.23 0)
@@ -2416,7 +2416,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2425,7 +2425,7 @@
   (symbol (lib_id "power:GND") (at 190.5 43.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cacebf1-2050-4a30-a662-fed7913bf65f)
-    (property "Reference" "#PWR07" (at 190.5 36.83 0)
+    (property "Reference" "#PWR?" (at 190.5 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 39.37 0)
@@ -2441,7 +2441,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2450,7 +2450,7 @@
   (symbol (lib_id "power:+5V") (at 210.82 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e84978e-cf97-485e-8daf-0e6b28d4822d)
-    (property "Reference" "#PWR04" (at 210.82 38.1 0)
+    (property "Reference" "#PWR?" (at 210.82 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 210.82 30.48 0)
@@ -2466,7 +2466,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2475,7 +2475,7 @@
   (symbol (lib_id "Memory_EEPROM:AT24CS01-STUM") (at 124.46 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2a29b4e-2ef3-41f3-a8c5-28b785a00122)
-    (property "Reference" "U1" (at 115.57 48.895 0)
+    (property "Reference" "U?" (at 115.57 48.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "AT24CS01-STUM" (at 115.57 51.435 0)
@@ -2495,7 +2495,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
   (symbol (lib_id "Custom spi connector:DB25_Receptacle") (at 254 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9cbd67c-83ad-45f4-88fd-9f7a6adbd6b2)
-    (property "Reference" "J1" (at 259.08 90.805 0)
+    (property "Reference" "J?" (at 259.08 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DB25_Receptacle" (at 259.08 93.345 0)
@@ -2544,7 +2544,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -2553,7 +2553,7 @@
   (symbol (lib_id "power:+3.3V") (at 127 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeb30f02-7a29-47e1-b6f1-f7e68f7dd68a)
-    (property "Reference" "#PWR01" (at 127 38.1 0)
+    (property "Reference" "#PWR?" (at 127 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 127 30.48 0)
@@ -2569,7 +2569,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2578,7 +2578,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 116.84 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff63db17-24b4-484a-aab2-bdd948eb27ff)
-    (property "Reference" "#FLG01" (at 116.84 32.385 0)
+    (property "Reference" "#FLG?" (at 116.84 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 116.84 30.48 0)
@@ -2594,7 +2594,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8d35112e-3dcb-4f8a-ab75-188a6b3d82be"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG?") (unit 1)
         )
       )
     )
