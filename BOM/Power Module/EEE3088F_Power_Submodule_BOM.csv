@@ -1,22 +1,25 @@
-Reference,Value,Footprint,Datasheet,Prices,Suppliers,Qty
-"C1, C3, C4",4.7uf,Capacitor_SMD:C_0603_1608Metric,~,0.0806,JLCPCB Parts,3
-"C2, C5",4.7 uf,Capacitor_SMD:C_0603_1608Metric,~,$0.08 ,JLCPCB Parts,2
-D1,LED,LED_SMD:LED_0603_1608Metric,~,$0.01 ,JLCPCB Parts,1
-D2,1N47xxA,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,https://www.vishay.com/docs/85816/1n4728a.pdf,$0.12 ,JLCPCB Parts,1
-J1,USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,~,$0.59 ,JLCPCB Parts,1
-J3_Battery1,Conn_01x02,Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat,~,$0.32 ,JLCPCB Parts,1
-L1,L,Inductor_SMD:L_0201_0603Metric,~,$0.01 ,JLCPCB Parts,1
-"Q1, Q2",PMOS,,https://ngspice.sourceforge.io/docs/ngspice-manual.pdf,$0.69 ,JLCPCB Parts,2
-R1,2k,Resistor_SMD:R_0603_1608Metric,~,$0.00 ,JLCPCB Parts,1
-R2,470,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R3,3.6M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R4,3M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R5,2.5M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R6,150k,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R7,1M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-R8,10M,Resistor_SMD:R_0201_0603Metric,~,$0.00 ,JLCPCB Parts,1
-U1,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,$0.69 ,JLCPCB Parts,1
-U3,LM3670MF,Package_TO_SOT_SMD:TSOT-23-5,http://www.ti.com/lit/ds/symlink/lm3670.pdf,$1.68 ,JLCPCB Parts,1
-U4,LM2902,,http://www.ti.com/lit/ds/symlink/lm2902-n.pdf,$0.30 ,JLCPCB Parts,1
-,,,,,,
-,,,,Total = $4.4925,,
+Reference,Value,Footprint,Datasheet,Description,JLCPCB Parts Numbers,Prices,Suppliers,Qty
+"C1, C3",10uf,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf,6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C15525,$0.0056,JLCPCB Parts,2
+C4,4.7uf,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/lcsc/1810191211_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf,10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C23733,$0.0060,JLCPCB Parts,1
+C5,4.7 uf,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/lcsc/1810191211_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf,10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C23733,$0.0060,JLCPCB Parts,1
+D1,Red LED,LED_SMD:LED_0805_2012Metric,https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf,Red 0805 Light Emitting Diodes (LED) ROHS,C84256,$0.0113,JLCPCB Parts,1
+D2,Zener Diode,Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp,https://nw.jlcerp.com/overseas-manage/pdfjs/web/viewer.html?file=%2Foverseas-manage%2Femail%2FdownloadByFileNo%3FfileNo%3D94529https://datasheet.lcsc.com/lcsc/1811142211_ST-Semtech-ZMM3V3-M_C8056.pdfe18c5284a3081d8a14987ad6aeb%26type%3D1,2uA@1V 85Ω Single 3.1V~3.5V 500mW 3.3V LL-34 Zener Diodes ROHS,C8056,$0.0159,JLCPCB Parts,1
+D3,Green LED,Diode_SMD:D_0805_2012Metric,https://nw.jlcerp.com/overseas-manage/pdfjs/web/viewer.html?file=%2Foverseas-manage%2Femail%2FdownloadByFileNo%3FfileNo%3D94529e18c5284a3081d8a14987ad6aeb%26type%3D1,0805 white （300-360mcd) Light Emitting Diodes (LED) ROHS,C34499 ,$0.0159,JLCPCB Parts,1
+J1,USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal,~,,,$0.5924,JLCPCB Parts,1
+J2,Battery Charger IC TP4056,SOIC127P600X175-9N,https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf,"1A Standalone Linear Li-lon Battery Charger, SOP-8 ,SOP-8-EP Battery Management ICs ROHS",C16581,$0.2174,JLCPCB Parts,1
+J3-J6,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf,"Plugin,P=2.54mm Pin Headers ROHS",C5116481,$0.0206,JLCPCB Parts,4
+J3_Battery1,Conn_01x02,Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat,~,,,$0.3213,JLCPCB Parts,1
+"Q1, Q2",PMOS,Package_TO_SOT_SMD:SOT-23,https://ngspice.sourceforge.io/docs/ngspice-manual.pdf,SOT-23 MOSFETs ROHS,C2959850,$0.6896,JLCPCB Parts,2
+"R1, R2",1k,Resistor_SMD:R_0402_1005Metric,~,62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS,C286552,$0.0005,JLCPCB Parts,2
+R3,3.6M,Resistor_SMD:R_0402_1005Metric,~,62.5mW 50V ±5% ±400ppm/℃ -55℃~+155℃ 3.6MΩ 0402 Chip,C321176,$0.0010,JLCPCB Parts,1
+R4,3M,Resistor_SMD:R_0402_1005Metric,~,62.5mW 50V ±1% ±400ppm/℃ -55℃~+155℃ 3.3MΩ 0402 Chip,C321173,$0.0005,JLCPCB Parts,1
+R5,2.5M,Resistor_SMD:R_0402_1005Metric,~,62.5mW ±100ppm/℃ ±1% 2.55MΩ 0402 Chip Resistor - Surface Mount ROHS,C166495,$0.0037,JLCPCB Parts,1
+R6,150k,Resistor_SMD:R_0402_1005Metric,~,62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 150kΩ 0402 Chip Resistor - Surface Mount ROHS,C144033,$0.0040,JLCPCB Parts,1
+R7,1M,Resistor_SMD:R_0402_1005Metric,~,100mW Thick Film Resistors 50V ±5% ±200ppm/℃ -55℃~+155℃ 1.1MΩ 0402 Chip Resistor - Surface Mount ROHS,C131500,$0.0027,JLCPCB Parts,1
+R8,10M,Resistor_SMD:R_0402_1005Metric,~,62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 10MΩ 0402 Chip Resistor - Surface Mount ROHS,C481925,$0.0100,JLCPCB Parts,1
+R9,400m,Resistor_SMD:R_0402_1005Metric,~,63mW Thick Film Resistors ±5% ±800ppm/℃ -55℃~+155℃ 400mΩ 0402 Chip Resistor - Surface Mount ROHS,C852204,$0.0447,JLCPCB Parts,1
+R10,1.6k,Resistor_SMD:R_0201_0603Metric,~,62.5mW Metal Film Resistors 50V ±25ppm/℃ ±0.1% -55℃~+155℃ 1.6kΩ 0402 Chip Resistor - Surface Mount ROHS,C186142,$0.3303,JLCPCB Parts,1
+TP1-TP5,TestPoint,,~,,,,,5
+U3,Voltage Regulator LM3670MF,Package_TO_SOT_SMD:TSOT-23-5,http://www.ti.com/lit/ds/symlink/lm3670.pdf,Yes Step-down type -40℃~+85℃@(TA) 1 Step-down Adjustable 0.7V~5.5V 350mA 2.5V~5.5V 1MHz SOT-23-5 DC-DC Converters ROHS,C82372,$1.6753,JLCPCB Parts,1
+U4,LM2902,,http://www.ti.com/lit/ds/symlink/lm2902-n.pdf,4 DIP-14  Operational Amplifier ROHS,C58917,$0.3679,JLCPCB Parts,1
+,,,,,,Total =                  $4.36,,
