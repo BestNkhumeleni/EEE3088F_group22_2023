@@ -426,7 +426,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "./",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -473,16 +473,12 @@
       ""
     ],
     [
-      "5eab94a0-95fb-4405-9961-390291429e6b",
-      "Humidity sensor"
-    ],
-    [
       "c494e013-0c38-49c8-84da-4f33138ae19d",
       "analogue temparature sensor"
     ],
     [
       "8c854172-02c8-417f-bf92-0562f4d1bdee",
-      "digital temparature sensor"
+      "digital sensor(Humidity and Temperature"
     ],
     [
       "816cf8a9-a5fb-405c-ad63-48cc867f8579",

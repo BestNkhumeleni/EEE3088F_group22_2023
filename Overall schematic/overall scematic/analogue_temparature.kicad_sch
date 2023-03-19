@@ -115,6 +115,10 @@
   )
 
 
+  (wire (pts (xy 105.41 82.55) (xy 105.41 88.9))
+    (stroke (width 0) (type default))
+    (uuid 8bc92367-c134-4524-8fa8-a9af5fe5a2e4)
+  )
   (wire (pts (xy 115.57 96.52) (xy 120.65 96.52))
     (stroke (width 0) (type default))
     (uuid c30f8c1a-dd9f-4758-8fb1-90da7f1d54af)
@@ -124,19 +128,25 @@
     (uuid f158681e-ec52-42fd-bf31-a6ac8675ecf2)
   )
 
-  (hierarchical_label "Vreg_Out" (shape input) (at 105.41 88.9 90) (fields_autoplaced)
+  (global_label "PAx" (shape output) (at 120.65 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid cc2ff8b3-768a-487a-91c6-6bdf82e61443)
+    (uuid 3d836e69-9e2a-4e8c-98df-a8c93c2a45ac)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.9425 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
   )
-  (hierarchical_label "PAx" (shape input) (at 120.65 96.52 0) (fields_autoplaced)
+  (global_label "Supply Voltage" (shape input) (at 105.41 82.55 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid cf83255a-0eee-401e-bf5c-720035cec742)
+    (uuid a51c3631-3e85-4eca-bb5f-c032283eaf2c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 105.41 65.5778 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
   )
 
   (symbol (lib_id "dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9701AT-E_TT") (at 105.41 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 800a62c5-26d1-4ef0-9671-dee083f56d20)
-    (property "Reference" "U?" (at 101.6 95.885 0)
+    (property "Reference" "U5" (at 101.6 95.885 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "MCP9701AT-E_TT" (at 101.6 98.425 0)
@@ -181,7 +191,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/c494e013-0c38-49c8-84da-4f33138ae19d"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "analogue_temparature"
