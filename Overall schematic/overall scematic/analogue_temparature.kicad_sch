@@ -128,19 +128,13 @@
     (uuid f158681e-ec52-42fd-bf31-a6ac8675ecf2)
   )
 
-  (global_label "PAx" (shape output) (at 120.65 96.52 0) (fields_autoplaced)
+  (hierarchical_label "Supply Voltage" (shape input) (at 105.41 82.55 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3d836e69-9e2a-4e8c-98df-a8c93c2a45ac)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.9425 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+    (uuid 1285a6f1-31e4-4dc1-8151-f6ee6fe4640d)
   )
-  (global_label "Supply Voltage" (shape input) (at 105.41 82.55 90) (fields_autoplaced)
+  (hierarchical_label "Analogue_out" (shape output) (at 120.65 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a51c3631-3e85-4eca-bb5f-c032283eaf2c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 105.41 65.5778 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+    (uuid 74927132-56c9-4aa7-a112-c2f0e9c23d1e)
   )
 
   (symbol (lib_id "dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9701AT-E_TT") (at 105.41 96.52 0) (unit 1)
@@ -205,7 +199,7 @@
   (symbol (lib_id "power:GND") (at 105.41 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af55b95c-d513-4f03-a3fb-08219c890f52)
-    (property "Reference" "#PWR?" (at 105.41 113.03 0)
+    (property "Reference" "#PWR09" (at 105.41 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 111.76 0)
@@ -221,7 +215,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/c494e013-0c38-49c8-84da-4f33138ae19d"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "analogue_temparature"
