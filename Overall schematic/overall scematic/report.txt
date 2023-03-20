@@ -1,0 +1,54 @@
+Error: Update symbols U5 U? from 'dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9701AT-E_TT' to 'dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9701AT-E_TT': *** symbol not found ***
+Error: Update symbol C5 from 'CL21B104KCFNNNE:CL21B104KCFNNNE' to 'CL21B104KCFNNNE:CL21B104KCFNNNE': *** symbol not found ***
+Error: Update symbol J8 from 'Custom spi connector:DB25_Receptacle' to 'Custom spi connector:DB25_Receptacle': *** symbol not found ***
+Error: Update symbol J9 from 'Custom spi connector:DB25_Receptacle' to 'Custom spi connector:DB25_Receptacle': *** symbol not found ***
+Error: Update symbols IC1 IC1 from 'DW01A-G:DW01A-G' to 'DW01A-G:DW01A-G': *** symbol not found ***
+Error: Update symbols J7 J3 from 'TP4056:TP4056' to 'TP4056:TP4056': *** symbol not found ***
+Error: Update symbols Q3 Q1 from 'FS8205A:FS8205A' to 'FS8205A:FS8205A': *** symbol not found ***
+Update symbol #PWR06 from 'power:VDD' to 'power:VDD': OK
+Update symbol #PWR08 from 'power:VDD' to 'power:VDD': OK
+Update symbol #PWR011 from 'power:VDD' to 'power:VDD': OK
+Update symbol BT1 from 'Device:Battery_Cell' to 'Device:Battery_Cell': OK
+Update symbol #FLG01 from 'power:PWR_FLAG' to 'power:PWR_FLAG': OK
+Update symbols #PWR09 #PWR? from 'power:GND' to 'power:GND': OK
+Update symbols R1 R3 from 'Device:R' to 'Device:R': OK
+Update symbols D1 D2 from 'Device:LED' to 'Device:LED': OK
+Update symbols TP5 TP2 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol U4 from 'Sensor_Humidity:HDC1080' to 'Sensor_Humidity:HDC1080': OK
+Update symbols J6 J4 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbol #PWR015 from 'power:GND' to 'power:GND': OK
+Update symbols C5 C3 from 'Device:C' to 'Device:C': OK
+Update symbols R11 R5 from 'Device:R' to 'Device:R': OK
+Update symbols J2 J6 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbols #PWR08 #PWR05 from 'power:GND' to 'power:GND': OK
+Update symbols D3 D1 from 'Device:LED' to 'Device:LED': OK
+Update symbols #PWR07 #PWR03 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR010 from 'power:GND' to 'power:GND': OK
+Update symbols TP2 TP3 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbols R10 R1 from 'Device:R' to 'Device:R': OK
+Update symbols #PWR02 #PWR04 from 'power:GND' to 'power:GND': OK
+Update symbols R9 R2 from 'Device:R' to 'Device:R': OK
+Update symbols U2 U1 from 'Regulator_Linear:HT75xx-1-SOT89' to 'Regulator_Linear:HT75xx-1-SOT89': OK
+Update symbols J1 J1 from 'Connector:USB_B_Micro' to 'Connector:USB_B_Micro': OK
+Update symbol #PWR013 from 'power:GND' to 'power:GND': OK
+Update symbols R2 R4 from 'Device:R' to 'Device:R': OK
+Update symbols R12 R6 from 'Device:R' to 'Device:R': OK
+Update symbols #FLG02 #FLG04 from 'power:PWR_FLAG' to 'power:PWR_FLAG': OK
+Update symbols #FLG03 #FLG05 from 'power:PWR_FLAG' to 'power:PWR_FLAG': OK
+Update symbols #PWR01 #PWR02 from 'power:GND' to 'power:GND': OK
+Update symbol U2 from 'Memory_EEPROM:AT24CS01-STUM' to 'Memory_EEPROM:AT24CS01-STUM': OK
+Update symbols #FLG01 #FLG03 from 'power:PWR_FLAG' to 'power:PWR_FLAG': OK
+Update symbol #PWR012 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR014 from 'power:+3.3V' to 'power:+3.3V': OK
+Update symbol #FLG08 from 'power:PWR_FLAG' to 'power:PWR_FLAG': OK
+Update symbols J3 J2 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbols C3 C1 from 'Device:C' to 'Device:C': OK
+Update symbols C2 C6 from 'Device:C' to 'Device:C': OK
+Update symbols J4 J5 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbols #PWR05 #PWR01 from 'power:GND' to 'power:GND': OK
+Update symbols C1 C4 from 'Device:C' to 'Device:C': OK
+Update symbols TP1 TP1 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbols C4 C2 from 'Device:C' to 'Device:C': OK
+Update symbol J10 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbol J11 from 'Connector:Conn_01x02_Pin' to 'Connector:Conn_01x02_Pin': OK
+Update symbol #PWR016 from 'power:VDD' to 'power:VDD': OK

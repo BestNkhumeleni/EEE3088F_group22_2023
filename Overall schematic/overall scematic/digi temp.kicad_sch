@@ -224,7 +224,7 @@
     (property "Value" "CL21B104KCFNNNE" (at 125.73 94.615 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 123.19 93.98 0)
+    (property "Footprint" "CL21B104KCFNNNE:CAPC2012X140N" (at 123.19 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 123.19 93.98 0)

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CL21B104KCFNNNE
+#
+DEF CL21B104KCFNNNE C 0 40 Y N 1 L N
+F0 "C" 0 150 50 H V L BNN
+F1 "CL21B104KCFNNNE" 0 -200 50 H V L BNN
+F2 "CAPC2012X140N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "In Stock" 0 0 50 H I L BNN "Availability"
+F5 "CL21B104KCFNNNE" 0 0 50 H I L BNN "MP"
+F6 "https://pricing.snapeda.com/search/part/CL21B104KCFNNNE/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F7 "0805 Samsung" 0 0 50 H I L BNN "Package"
+F8 "Samsung" 0 0 50 H I L BNN "MF"
+F9 "None" 0 0 50 H I L BNN "Price"
+F10 "\n0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)\n" 0 0 50 H I L BNN "Description"
+DRAW
+S 0 -75 25 75 0 0 0 F
+S 75 -75 100 75 0 0 0 F
+X ~ 1 200 0 100 L 40 40 0 0 P 
+X ~ 2 -100 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
