@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "overall schematic")
-    (date "2023-03-10")
-    (rev "version1")
+    (title "3088_group22_design")
+    (date "2023-03-20")
+    (rev "3")
+    (company "University of capetown")
   )
 
   (lib_symbols

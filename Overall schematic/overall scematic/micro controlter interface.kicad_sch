@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "3088_group22_design")
+    (date "2023-03-20")
+    (rev "3")
+    (company "University of capetown")
+  )
+
   (lib_symbols
     (symbol "Custom spi connector:DB25_Receptacle" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 34.29 0)
