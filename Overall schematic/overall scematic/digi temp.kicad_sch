@@ -272,7 +272,7 @@
   (symbol (lib_id "Sensor_Humidity:HDC1080") (at 152.4 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f7668fb-2dd3-4bc9-82a7-c32c5f6ede0a)
-    (property "Reference" "U4" (at 161.29 97.79 0)
+    (property "Reference" "U1" (at 161.29 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "HDC1080" (at 161.29 100.33 0)
@@ -294,7 +294,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8c854172-02c8-417f-bf92-0562f4d1bdee"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -303,7 +303,7 @@
   (symbol (lib_id "power:GND") (at 123.19 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fba67e4f-1f20-40d6-86be-63ec2518fb70)
-    (property "Reference" "#PWR010" (at 123.19 113.03 0)
+    (property "Reference" "#PWR0102" (at 123.19 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 111.76 0)
@@ -319,7 +319,7 @@
     (instances
       (project "overall scematic"
         (path "/9230863d-68c5-4e85-a5d4-0f54ecfbae5b/8c854172-02c8-417f-bf92-0562f4d1bdee"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )

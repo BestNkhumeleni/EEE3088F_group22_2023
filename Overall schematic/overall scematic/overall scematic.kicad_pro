@@ -426,8 +426,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "specctra_dsn": "",
+      "netlist": "overall scematic-backups/overall scematic.net",
+      "specctra_dsn": "overall scematic-backups/overall scematic.dsn",
       "step": "",
       "vrml": ""
     },
@@ -456,7 +456,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
