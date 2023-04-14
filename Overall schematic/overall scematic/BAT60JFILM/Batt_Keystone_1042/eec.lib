@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Keystone 1042
+#
+DEF 1042 BT 0 40 Y Y 1 L N
+F0 "BT" 0 0 50 H V L CNN 
+F1 "1042" 0 100 50 H V L CNN 
+F2 "Keystone-1042-*" 0 200 50 H I L CNN 
+F3 "http://www.keyelco.com/product-pdf.cfm?p=918" 0 300 50 H I L CNN 
+F4 "Batt" 0 400 50 H I L CNN "category"
+F5 "HOLDER BATTERY 1CELL 18650 SMD" 0 500 50 H I L CNN "digikey description"
+F6 "36-1042-ND" 0 600 50 H I L CNN "digikey part number"
+F7 "CAPC200125X45" 0 700 50 H I L CNN "ipc land pattern name"
+F8 "yes" 0 800 50 H I L CNN "lead free"
+F9 "72d0892104c80140" 0 900 50 H I L CNN "library id"
+F10 "Keystone" 0 1000 50 H I L CNN "manufacturer"
+F11 "534-1042" 0 1100 50 H I L CNN "mouser part number"
+F12 "PTH_BAT_HOLDER_18650" 0 1200 50 H I L CNN "package"
+F13 "yes" 0 1300 50 H I L CNN "rohs"
+DRAW
+X ANODE 2 0 -100 100 D 40 0 1 1 U 
+X CATHODE 1 0 -500 100 U 40 0 1 1 U 
+P 2 1 1 0 100 -200 -100 -200 N
+P 2 1 1 0 50 -260 -50 -260 N
+P 2 1 1 0 100 -330 -100 -330 N
+P 2 1 1 0 50 -400 -50 -400 N
+T 1 100 -120 60 1 1 +
+T 0 150 -500 60 1 1 -
+ENDDRAW
+ENDDEF
+#
+# End Library
