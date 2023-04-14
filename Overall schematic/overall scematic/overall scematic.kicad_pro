@@ -426,7 +426,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "overall scematic-backups/overall scematic.net",
+      "netlist": "overall scematic.net",
       "specctra_dsn": "overall scematic-backups/overall scematic.dsn",
       "step": "",
       "vrml": ""

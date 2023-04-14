@@ -215,7 +215,7 @@
     (property "Value" "Battery_Cell" (at 195.58 130.683 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Battery:BatteryHolder_Keystone_2466_1xAAA" (at 191.77 129.286 90)
+    (property "Footprint" "BAT60JFILM:18650_Holder_SMD" (at 191.77 129.286 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 129.286 90)

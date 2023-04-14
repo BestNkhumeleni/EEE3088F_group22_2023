@@ -1,4 +1,4 @@
-21459923020782767
+21473375344164096
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -14,6 +14,20 @@ audio belton reverb
 7
 7
 BAT60JFILM
+18650_Holder_SMD
+
+
+0
+5
+2
+BAT60JFILM
+CAPC2012X140N
+
+
+0
+2
+2
+BAT60JFILM
 DW01A
 DW01A-G
 Integrated Circuit
@@ -28,12 +42,61 @@ MOSFET (N-Channel)
 8
 8
 BAT60JFILM
+FB8250A
+FS8205A
+MOSFET (N-Channel)
+0
+8
+8
+BAT60JFILM
+SAMTEC_SSQ-120-03-G-D
+
+
+0
+40
+40
+BAT60JFILM
+SOT-23-3
+
+
+0
+3
+3
+BAT60JFILM
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+0
+3
+3
+BAT60JFILM
+STLINK_UCT
+
+
+0
+9
+9
+BAT60JFILM
+STM32F051C6T6
+
+
+0
+48
+48
+BAT60JFILM
 TP4056
 SOP-8
 Connector
 0
 9
 9
+BAT60JFILM
+conn 06x02_SMD
+
+
+0
+12
+12
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2411,13 +2474,6 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
-0
-2
-2
-CL21B104KCFNNNE
-CAPC2012X140N
-
-
 0
 2
 2
@@ -60409,13 +60465,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MCP9701AT-E_TT
-SOT-23-3
-
-
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -89620,3 +89669,10 @@ varistor
 0
 2
 2
+footprint
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+0
+3
+3

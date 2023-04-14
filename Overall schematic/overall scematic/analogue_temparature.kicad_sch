@@ -234,7 +234,7 @@
     (property "Value" "MCP9701AT-E_TT" (at 101.6 98.425 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
-    (property "Footprint" "MCP9701AT-E_TT:SOT-23-3" (at 110.49 91.44 0)
+    (property "Footprint" "BAT60JFILM:SOT-23-3" (at 110.49 91.44 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" (at 110.49 88.9 0)
