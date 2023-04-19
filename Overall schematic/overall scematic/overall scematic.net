@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\Best Nkhumeleni\\Desktop\\3088F_group22\\EEE3088F_group22_2023\\Overall schematic\\overall scematic\\overall scematic.kicad_sch")
-    (date "2023/04/14 03:08:48")
+    (date "2023/04/14 08:47:34")
     (tool "Eeschema (7.0.0)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -358,7 +358,7 @@
       (tstamps "270f1a7a-4c51-437e-a0b0-3386e19fb328"))
     (comp (ref "J2")
       (value "Conn_01x02_Pin")
-      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
       (datasheet "https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf")
       (fields
         (field (name "Description") "Plugin,P=2.54mm Pin Headers ROHS")
