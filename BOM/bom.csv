@@ -1,0 +1,46 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,18650_Holder_SMD,1,Battery_Cell,
+C1, C4, C6,0402,3,10uf,
+C10,1206,1,10nF,
+C2, C3,0402,2,1uf,
+C5,CAPC2012X140N,1,CL21B104KCFNNNE,
+D1,0805,1,Green LED,
+D2,0805,1,Red LED,
+IC1,DW01A,1, battery protection IC  DW01A-G,
+J1,USB_Micro-B_Amphenol_10118194_Horizontal,1,USB_B_Micro,
+J12, J13,SAMTEC_SSQ-120-03-G-D,2,Conn_01x24_Socket,
+J19, J2, J4, J5, J6, J7,PinHeader_1x02_P2.54mm_Vertical,6,Conn_01x02_Pin,
+J3,TP4056,1,Battery Charger IC TP4056,
+J9,STM32F051C6T6,1,Conn_02x24_Counter_Clockwise,
+JP1, JP2,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels,2,Jumper_2_Bridged,
+Q1,FB8205A,1,Dual Mosfet FS8205A,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,1.6k,
+R10, R11,0603,2,1k,
+R2,0402,1,400m,
+R3, R4, R5,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,3,1k,
+R6,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,1,100,
+R7, R8,0805,2,4.7k,
+R9,0805,1,10k,
+SW1,SW_PUSH_6mm,1,SW_Push,
+TP1, TP2, TP3,TestPoint_2Pads_Pitch2.54mm_Drill0.8mm,3,TestPoint,
+U1,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,1,MCP1700T-3302E/TT,C39051
+U2,Texas_PWSON-N6,1,HDC1080,
+U3,STLINK_UCT,1,STLINK_UCT,
+U4,SOT-23-5,1,AT24CS01-STUM,
+U5,SOT-23-3,1,MCP9701AT-E_TT,MCP9701AT-E/TT
+C1-C3,10uf,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf,6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,,C15525,$0.01 ,JLCPCB Parts,3
+C4, C5,1uf,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/lcsc/1810191211_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf,10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,,C23733,$0.01 ,JLCPCB Parts,2
+D1,Red LED,LED_SMD:LED_0805_2012Metric,https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf,Red 0805 Light Emitting Diodes (LED) ROHS,,C84256,$0.01 ,JLCPCB Parts,1
+D3,Green LED,Diode_SMD:D_0805_2012Metric,https://nw.jlcerp.com/overseas-manage/pdfjs/web/viewer.html?file=%2Foverseas-manage%2Femail%2FdownloadByFileNo%3FfileNo%3D94529e18c5284a3081d8a14987ad6aeb%26type%3D1,0805 white （300-360mcd) Light Emitting Diodes (LED) ROHS,,C34499 ,$0.02 ,JLCPCB Parts,1
+IC1, battery protection IC  DW01A-G,footprint_DW01-G:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,http://acoptex.com/uploads/DW01A.pdf,One Cell Lithium-ion/Polymer Battery Protection IC,,C61503,,JLCPCB Parts,1
+J1,USB_B_Micro,footprint_USB_MICRO:MICRO-USB-SMD_MICROXNJ,~,,,C404969,$0.59 ,JLCPCB Parts,1
+"J2-J6,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf,""Plugin,P=2.54mm Pin Headers ROHS"",,C5116481,$0.02 ,JLCPCB Parts,5"
+"J7,Battery Charger IC TP4056,footprint_TP4056:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP,https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf,""1A Standalone Linear Li-lon Battery Charger, SOP-8"",,C16581,,JLCPCB Parts,1"
+JP1, JP2,Jumper_2_Bridged,,~,,,,,,2
+Q3,Dual Mosfet FS8205A,,http://www.ic-fortune.com/upload/Download/FS8205A-DS-12_EN.pdf,Dual N-Channel Enahncement Mode Power MOSFET,,FS8205A,,,1
+R1, R2, R11,1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS,,C286552,$0.00 ,JLCPCB Parts,3
+R9,400m,Resistor_SMD:R_0402_1005Metric,~,63mW Thick Film Resistors ±5% ±800ppm/℃ -55℃~+155℃ 400mΩ 0402 Chip Resistor - Surface Mount ROHS,,C852204,$0.04 ,JLCPCB Parts,1
+R10,1.6k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,62.5mW Metal Film Resistors 50V ±25ppm/℃ ±0.1% -55℃~+155℃ 1.6kΩ 0402 Chip Resistor - Surface Mount ROHS,,C186142,$0.33 ,JLCPCB Parts,1
+R12,100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS,,C286552,$0.00 ,JLCPCB Parts,1
+TP1, TP2, TP5,TestPoint,,~,,,,,,3
+U1,MCP1700T-3302E_TT,footprint:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,https://item.szlcsc.com/14454.html,,C39051,,,,1
