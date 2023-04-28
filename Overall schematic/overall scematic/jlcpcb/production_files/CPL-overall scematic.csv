@@ -1,0 +1,32 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uf,C_0402_1005Metric,122.192,-97.905,180.0,top
+C2,1uf,C_0402_1005Metric,131.312,-99.215,0.0,top
+C3,1uf,C_0402_1005Metric,131.312,-101.185,0.0,top
+C4,10uf,C_0402_1005Metric,131.312,-103.155,0.0,top
+C5,CL21B104KCFNNNE,CAPC2012X140N,197.1,-147.0,0.0,top
+C6,10uf,C_0402_1005Metric,130.712,-106.425,90.0,top
+C10,10nF,C_1206_3216Metric,180.0,-95.0,90.0,top
+D1,Green LED,D_0805_2012Metric,126.0,-98.0,0.0,top
+D2,Red LED,LED_0805_2012Metric,119.0625,-116.0,0.0,top
+IC1, battery protection IC  DW01A-G,DW01A,116.712,-93.905,0.0,top
+J1,USB_B_Micro,USB_Micro-B_Amphenol_10118194_Horizontal,112.8,-132.4,-90.0,top
+J3,Battery Charger IC TP4056,TP4056,124.712,-102.905,0.0,top
+JP1,Jumper_2_Bridged,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels,115.0,-85.0,0.0,top
+JP2,Jumper_2_Bridged,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels,115.0,-88.55,0.0,top
+Q1,Dual Mosfet FS8205A,FB8205A,124.712,-93.905,0.0,top
+R1,1.6k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,126.712,-109.905,0.0,top
+R2,400m,R_0402_1005Metric,131.0,-92.0,0.0,top
+R3,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,116.027,-97.905,0.0,top
+R4,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,116.027,-101.955,0.0,top
+R5,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,116.027,-106.005,0.0,top
+R6,100,R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,116.027,-110.055,0.0,top
+R7,4.7k,R_0805_2012Metric,192.62,-142.19,0.0,top
+R8,4.7k,R_0805_2012Metric,192.62,-145.14,0.0,top
+R9,10k,R_0805_2012Metric,171.0,-100.0,0.0,top
+R10,1k,R_0603_1608Metric,169.825,-96.0,0.0,top
+R11,1k,R_0603_1608Metric,171.0,-90.0,0.0,top
+SW1,SW_Push,SW_PUSH_6mm,140.75,-121.25,0.0,top
+U1,MCP1700T-3302E_TT,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,134.959435,-100.0,180.0,top
+U2,HDC1080,Texas_PWSON-N6,198.55,-142.06,0.0,top
+U4,AT24CS01-STUM,SOT-23-5,174.0,-95.0,0.0,top
+U5,MCP9701AT-E_TT,SOT-23-3,205.95,-148.0,0.0,top
