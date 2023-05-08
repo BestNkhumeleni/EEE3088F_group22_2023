@@ -1,4 +1,4 @@
-21473375344164096
+21478421748646878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -45,6 +45,13 @@ BAT60JFILM
 FB8250A
 FS8205A
 MOSFET (N-Channel)
+0
+8
+8
+BAT60JFILM
+ON_Semi-751BD-01-12_2008-O-0
+
+
 0
 8
 8
@@ -2474,6 +2481,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CL21B104KCFNNNE
+CAPC2012X140N
+
+
 0
 2
 2
@@ -60465,6 +60479,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP9701AT-E_TT
+SOT-23-3
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Best Nkhumeleni\Desktop\3088F_group22\EEE3088F_group22_2023\Overall schematic\overall scematic\overall scematic.kicad_sch</source>
+    <date>Mon May  8 18:39:49 2023</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>3088_group22_design</title>
+        <company>University of capetown</company>
+        <rev>3</rev>
+        <date>2023-03-20</date>
+        <source>overall scematic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/analogue temparature sensor/" tstamps="/c494e013-0c38-49c8-84da-4f33138ae19d/">
+      <title_block>
+        <title>3088_group22_design</title>
+        <company>University of capetown</company>
+        <rev>3</rev>
+        <date>2023-03-20</date>
+        <source>analogue_temparature.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/digital sensor(Humidity and Temperature/" tstamps="/8c854172-02c8-417f-bf92-0562f4d1bdee/">
+      <title_block>
+        <title>3088_group22_design</title>
+        <company>University of capetown</company>
+        <rev>3</rev>
+        <date>2023-03-20</date>
+        <source>digi temp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/">
+      <title_block>
+        <title>3088_group22_design</title>
+        <company>University of capetown</company>
+        <rev>3</rev>
+        <date>2023-03-20</date>
+        <source>micro controlter interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>BAT60JFILM:18650_Holder_SMD</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="overall scematic.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>177e3f71-2104-4385-afb4-8ed482d33081</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP9701AT-E_TT</value>
+      <footprint>BAT60JFILM:SOT-23-3</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/MCP9701AT-E-TT/MCP9701AT-E-TTCT-ND/1987449</field>
+        <field name="Description">SENSOR ANALOG -10C-125C SOT23-3</field>
+        <field name="Digi-Key_PN">MCP9701AT-E/TTCT-ND</field>
+        <field name="Family">Temperature Sensors - Analog and Digital Output</field>
+        <field name="MPN">MCP9701AT-E/TT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Temperature-Sensors-Analog-and-Digital-Output" part="MCP9701AT-E_TT" description="SENSOR ANALOG -10C-125C SOT23-3"/>
+      <property name="Digi-Key_PN" value="MCP9701AT-E/TTCT-ND"/>
+      <property name="MPN" value="MCP9701AT-E/TT"/>
+      <property name="Category" value="Sensors, Transducers"/>
+      <property name="Family" value="Temperature Sensors - Analog and Digital Output"/>
+      <property name="DK_Datasheet_Link" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/microchip-technology/MCP9701AT-E-TT/MCP9701AT-E-TTCT-ND/1987449"/>
+      <property name="Description" value="SENSOR ANALOG -10C-125C SOT23-3"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value="analogue temparature sensor"/>
+      <property name="Sheetfile" value="analogue_temparature.kicad_sch"/>
+      <property name="ki_description" value="SENSOR ANALOG -10C-125C SOT23-3"/>
+      <property name="ki_keywords" value="MCP9701AT-E/TTCT-ND"/>
+      <sheetpath names="/analogue temparature sensor/" tstamps="/c494e013-0c38-49c8-84da-4f33138ae19d/"/>
+      <tstamps>800a62c5-26d1-4ef0-9671-dee083f56d20</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>CL21B104KCFNNNE</value>
+      <footprint>BAT60JFILM:CAPC2012X140N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Description">\n0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)\n</field>
+        <field name="MF">Samsung</field>
+        <field name="MP">CL21B104KCFNNNE</field>
+        <field name="Package">0805 Samsung</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search/part/CL21B104KCFNNNE/?ref=eda</field>
+      </fields>
+      <libsource lib="CL21B104KCFNNNE" part="CL21B104KCFNNNE" description=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MP" value="CL21B104KCFNNNE"/>
+      <property name="Purchase-URL" value="https://pricing.snapeda.com/search/part/CL21B104KCFNNNE/?ref=eda"/>
+      <property name="Package" value="0805 Samsung"/>
+      <property name="MF" value="Samsung"/>
+      <property name="Price" value="None"/>
+      <property name="Description" value="\n0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)\n"/>
+      <property name="Sheetname" value="digital sensor(Humidity and Temperature"/>
+      <property name="Sheetfile" value="digi temp.kicad_sch"/>
+      <sheetpath names="/digital sensor(Humidity and Temperature/" tstamps="/8c854172-02c8-417f-bf92-0562f4d1bdee/"/>
+      <tstamps>2cefa298-6a65-4398-aeb9-b876afb24c5c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="digital sensor(Humidity and Temperature"/>
+      <property name="Sheetfile" value="digi temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/digital sensor(Humidity and Temperature/" tstamps="/8c854172-02c8-417f-bf92-0562f4d1bdee/"/>
+      <tstamps>8bbf471d-7913-4d2c-91b9-aa01a6a0e246</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="digital sensor(Humidity and Temperature"/>
+      <property name="Sheetfile" value="digi temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/digital sensor(Humidity and Temperature/" tstamps="/8c854172-02c8-417f-bf92-0562f4d1bdee/"/>
+      <tstamps>cf6c0840-4c0f-410d-9451-be6e6e44b3b6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>HDC1080</value>
+      <footprint>Package_SON:Texas_PWSON-N6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</datasheet>
+      <libsource lib="Sensor_Humidity" part="HDC1080" description="Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"/>
+      <property name="Sheetname" value="digital sensor(Humidity and Temperature"/>
+      <property name="Sheetfile" value="digi temp.kicad_sch"/>
+      <property name="ki_description" value="Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"/>
+      <property name="ki_keywords" value="Temperature Humidity Sensor"/>
+      <sheetpath names="/digital sensor(Humidity and Temperature/" tstamps="/8c854172-02c8-417f-bf92-0562f4d1bdee/"/>
+      <tstamps>7f7668fb-2dd3-4bc9-82a7-c32c5f6ede0a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="Description">6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Manufacturer_Part_Number">C15525</field>
+        <field name="Prices"> $0.0056 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Prices" value=" $0.0056 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Manufacturer_Part_Number" value="C15525"/>
+      <property name="Description" value="6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>47f0a51c-1f66-47e0-9bd8-16f1cc548cc6</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191211_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf</datasheet>
+      <fields>
+        <field name="Description">10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Manufacturer_Part_Number">C23733</field>
+        <field name="Prices"> $0.0060 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Prices" value=" $0.0060 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Manufacturer_Part_Number" value="C23733"/>
+      <property name="Description" value="10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>801db341-3d6f-4214-8a5b-db757151e52d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191211_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf</datasheet>
+      <fields>
+        <field name="Description">10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Manufacturer_Part_Number">C23733</field>
+        <field name="Prices"> $0.0060 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Prices" value=" $0.0060 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C23733"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>686c69bf-c533-414a-9438-3d80bcb1e39e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="Description">6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Manufacturer_Part_Number">C15525</field>
+        <field name="Prices"> $0.0056 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Prices" value=" $0.0056 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Manufacturer_Part_Number" value="C15525"/>
+      <property name="Description" value="6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>e599597f-2f27-4002-8ba7-9a717256f759</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="Description">6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="Manufacturer_Part_Number">C15525</field>
+        <field name="Prices"> $0.0056 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Prices" value=" $0.0056 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Manufacturer_Part_Number" value="C15525"/>
+      <property name="Description" value="6.3V 10.uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>b1b81f2e-ffd9-4138-b237-28ad905821ab</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://nw.jlcerp.com/overseas-manage/pdfjs/web/viewer.html?file=%2Foverseas-manage%2Femail%2FdownloadByFileNo%3FfileNo%3D94529e18c5284a3081d8a14987ad6aeb%26type%3D1</datasheet>
+      <fields>
+        <field name="Description">0805 white （300-360mcd) Light Emitting Diodes (LED) ROHS</field>
+        <field name="Manufacturer_Part_Number">C34499 </field>
+        <field name="Prices">$0.0159 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Prices" value="$0.0159 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="0805 white （300-360mcd) Light Emitting Diodes (LED) ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C34499 "/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>ab64b60c-11b3-4643-b9d9-f0f358dc9a89</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Red LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf</datasheet>
+      <fields>
+        <field name="Description">Red 0805 Light Emitting Diodes (LED) ROHS</field>
+        <field name="Manufacturer_Part_Number">C84256</field>
+        <field name="Prices">$0.0113 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Prices" value="$0.0113 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="Red 0805 Light Emitting Diodes (LED) ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C84256"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>f63ca4e8-390d-4833-a4e1-3eaa6cbafe9d</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value> battery protection IC  DW01A-G</value>
+      <footprint>BAT60JFILM:DW01A</footprint>
+      <datasheet>http://acoptex.com/uploads/DW01A.pdf</datasheet>
+      <fields>
+        <field name="Description">One Cell Lithium-ion/Polymer Battery Protection IC</field>
+        <field name="Height">1.35</field>
+        <field name="Manufacturer_Name">Fortune Semiconductor Corporation</field>
+        <field name="Manufacturer_Part_Number">DW01A-G</field>
+      </fields>
+      <libsource lib="DW01A-G" part="DW01A-G" description="One Cell Lithium-ion/Polymer Battery Protection IC"/>
+      <property name="Description" value="One Cell Lithium-ion/Polymer Battery Protection IC"/>
+      <property name="Height" value="1.35"/>
+      <property name="Manufacturer_Name" value="Fortune Semiconductor Corporation"/>
+      <property name="Manufacturer_Part_Number" value="DW01A-G"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="One Cell Lithium-ion/Polymer Battery Protection IC"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>df5f93db-b5d7-4511-9476-9188d956c986</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="Prices"> $0.5924</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Prices" value=" $0.5924"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>270f1a7a-4c51-437e-a0b0-3386e19fb328</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>3241449b-08e8-4487-af49-34ca1fae45b4</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Battery Charger IC TP4056</value>
+      <footprint>BAT60JFILM:TP4056</footprint>
+      <datasheet>https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf</datasheet>
+      <fields>
+        <field name="Description">1A Standalone Linear Li-lon Battery Charger, SOP-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">NanJing Top Power</field>
+        <field name="Manufacturer_Part_Number">TP4056</field>
+      </fields>
+      <libsource lib="" part="TP4056_1" description="1A Standalone Linear Li-lon Battery Charger, SOP-8"/>
+      <property name="Description" value="1A Standalone Linear Li-lon Battery Charger, SOP-8"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="NanJing Top Power"/>
+      <property name="Manufacturer_Part_Number" value="TP4056"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="1A Standalone Linear Li-lon Battery Charger, SOP-8"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>37c33bc0-3ada-4db5-91b6-d68dbc8d2e42</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>38ca77bc-7073-4c5f-9a11-2868790cb1f3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>eb9433ec-333e-4895-805c-8c2ba5cd5cec</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>76e649df-3b92-473c-9314-dc3b760face3</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>c5bb4dee-2d14-4535-94a8-9fcedead40e6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>aea1b5b6-1743-4f34-87e6-04edb779a3bc</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2207291800_ZHOURI-2-54-1-2_C5116481.pdf</datasheet>
+      <fields>
+        <field name="Description">Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="Manufacturer_Part_Number">C5116481</field>
+        <field name="Prices">$0.0206</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Description" value="Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C5116481"/>
+      <property name="Prices" value="$0.0206"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>2b5feb35-f2b6-4b74-ba97-4874bc9c2501</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Dual Mosfet FS8205A</value>
+      <footprint>BAT60JFILM:FB8205A</footprint>
+      <datasheet>http://www.ic-fortune.com/upload/Download/FS8205A-DS-12_EN.pdf</datasheet>
+      <fields>
+        <field name="Description">Dual N-Channel Enahncement Mode Power MOSFET</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">fortune</field>
+        <field name="Manufacturer_Part_Number">FS8205A</field>
+      </fields>
+      <libsource lib="FS8205A" part="FS8205A" description="Dual N-Channel Enahncement Mode Power MOSFET"/>
+      <property name="Description" value="Dual N-Channel Enahncement Mode Power MOSFET"/>
+      <property name="Height" value="1.2"/>
+      <property name="Manufacturer_Name" value="fortune"/>
+      <property name="Manufacturer_Part_Number" value="FS8205A"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Dual N-Channel Enahncement Mode Power MOSFET"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>2d6e253d-67ac-4052-b575-2f392a44ef21</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.6k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Description">62.5mW Metal Film Resistors 50V ±25ppm/℃ ±0.1% -55℃~+155℃ 1.6kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C186142</field>
+        <field name="Prices">$0.3303 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.3303 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="62.5mW Metal Film Resistors 50V ±25ppm/℃ ±0.1% -55℃~+155℃ 1.6kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C186142"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>a2691178-e5fa-4782-bb88-8ce6203fa77f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>400m</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Description">63mW Thick Film Resistors ±5% ±800ppm/℃ -55℃~+155℃ 400mΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C852204</field>
+        <field name="Prices">$0.0447 </field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.0447 "/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="63mW Thick Film Resistors ±5% ±800ppm/℃ -55℃~+155℃ 400mΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C852204"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>dbbe63f1-cba7-474f-a4f9-cd4049ed002b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Description">62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C286552</field>
+        <field name="Prices">$0.0005</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.0005"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C286552"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>ed32469b-7793-4e25-b053-97f1d414ccf7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Description">62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C286552</field>
+        <field name="Prices">$0.0005</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.0005"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C286552"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>3a8f855f-3336-4fe3-bcbf-6bf78425d3ae</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Description">62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C286552</field>
+        <field name="Prices">$0.0005</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.0005"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C286552"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>435cc7bd-3c1e-4a8b-9a3d-6adce81648c6</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Description">62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Manufacturer_Part_Number">C286552</field>
+        <field name="Prices">$0.0005</field>
+        <field name="Suppliers">JLCPCB Parts</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Prices" value="$0.0005"/>
+      <property name="Suppliers" value="JLCPCB Parts"/>
+      <property name="Description" value="62.5mW 50V ±1% ±200ppm/℃ -55℃~+155℃ 1.1kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Manufacturer_Part_Number" value="C286552"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>15be61ab-8a34-4e1b-a228-ed845ad4ecdc</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>37729122-c9e2-4107-b765-d35601cc4c05</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>ab43230b-733a-48a8-9e81-5edb0780718c</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>3c35bbbf-a5ae-41ee-8fe0-220682b1119b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1700T-3302E_TT</value>
+      <footprint>BAT60JFILM:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR</footprint>
+      <datasheet>https://item.szlcsc.com/14454.html</datasheet>
+      <fields>
+        <field name="LCSC">C39051</field>
+      </fields>
+      <libsource lib="MCP1700T-3302E_TT" part="MCP1700T-3302E_TT" description=""/>
+      <property name="LCSC" value="C39051"/>
+      <property name="Sheetname" value="Power module"/>
+      <property name="Sheetfile" value="power_module.kicad_sch"/>
+      <property name="ki_keywords" value="C39051"/>
+      <sheetpath names="/Power module/" tstamps="/816cf8a9-a5fb-405c-ad63-48cc867f8579/"/>
+      <tstamps>62c2a670-4243-4333-bf0d-11e87b8ee53b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part number">C1846</field>
+        <field name="Price">0.0008 </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.0008 "/>
+      <property name="Supplier" value=""/>
+      <property name="JLCPCB Part number" value="C1846"/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>ab7efc98-8c46-47b5-9ce5-20b2d25c58e0</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_02x24_Counter_Clockwise</value>
+      <footprint>BAT60JFILM:STM32F051C6T6</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x24_Counter_Clockwise" description="Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>965ca175-078c-433e-a0a4-712123dd30d0</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x24_Socket</value>
+      <libsource lib="Connector" part="Conn_01x24_Socket" description="Generic connector, single row, 01x24, script generated"/>
+      <property name="JLCPCB Part number" value=""/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x24, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>27015e6e-a584-4548-90c3-81e24e7d6a0a</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x24_Socket</value>
+      <libsource lib="Connector" part="Conn_01x24_Socket" description="Generic connector, single row, 01x24, script generated"/>
+      <property name="JLCPCB Part number" value=""/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x24, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>97cd4e01-1f58-46a4-9508-bab524427601</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Part number" value=""/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>59112e50-6ffd-4018-ba94-5e80fea74a56</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part number">C17902</field>
+        <field name="Price">0.0029</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="JLCPCB Part number" value="C17902"/>
+      <property name="Price" value="0.0029"/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>da495233-9d68-427f-acfc-8e8e7af87670</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part number">C21190</field>
+        <field name="Price">0.0006 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="JLCPCB Part number" value="C21190"/>
+      <property name="Price" value="0.0006 "/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>ea639c6a-e93e-4ce5-aa29-72c347c93679</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part number">C21190</field>
+        <field name="Price">0.0006 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="JLCPCB Part number" value="C21190"/>
+      <property name="Price" value="0.0006 "/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>1b44a4d5-0227-4e68-86f3-b55d7fe75104</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="JLCPCB Part number" value=""/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>c3fc47f8-918b-4bd7-9b5b-81ce2512c0dc</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>STLINK_UCT</value>
+      <footprint>BAT60JFILM:STLINK_UCT</footprint>
+      <libsource lib="UCT" part="STLINK_UCT" description=""/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>3fb3d358-8093-4c16-bfa8-fcb8c58e00ce</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CAT24C256WI-GT3</value>
+      <footprint>BAT60JFILM:ON_Semi-751BD-01-12_2008-O-0</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/CAT24C256-D.PDF</datasheet>
+      <fields>
+        <field name="category">IC</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">Memory</field>
+        <field name="device class L3">EEPROM</field>
+        <field name="digikey description">IC EEPROM 256K I2C 1MHZ 8SOIC</field>
+        <field name="digikey part number">CAT24C256WI-GT3OSCT-ND</field>
+        <field name="footprint url">http://www.onsemi.cn/PowerSolutions/document/751BD.PDF</field>
+        <field name="frequency">400kHz</field>
+        <field name="height">1.75mm</field>
+        <field name="interface">I2C</field>
+        <field name="ipc land pattern name">SOIC127P600X155-8</field>
+        <field name="lead free">yes</field>
+        <field name="library id">48331c3067913777</field>
+        <field name="manufacturer">ON Semi</field>
+        <field name="max supply voltage">5.5V</field>
+        <field name="memory size">256KB</field>
+        <field name="memory type">EEPROM</field>
+        <field name="min supply voltage">1.8V</field>
+        <field name="mouser description">ON SEMICONDUCTOR - CAT24C256WI-GT3 - SERIAL EEPROM, 256KBIT, 400KHZ, SOIC-8</field>
+        <field name="mouser part number">698-CAT24C256WI-GT3</field>
+        <field name="package">SOIC8</field>
+        <field name="rohs">yes</field>
+        <field name="standoff height">0.1mm</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+      </fields>
+      <libsource lib="best" part="CAT24C256WI-GT3" description="CAT24C256WI-GT3"/>
+      <property name="category" value="IC"/>
+      <property name="device class L1" value="Integrated Circuits (ICs)"/>
+      <property name="device class L2" value="Memory"/>
+      <property name="device class L3" value="EEPROM"/>
+      <property name="digikey description" value="IC EEPROM 256K I2C 1MHZ 8SOIC"/>
+      <property name="digikey part number" value="CAT24C256WI-GT3OSCT-ND"/>
+      <property name="footprint url" value="http://www.onsemi.cn/PowerSolutions/document/751BD.PDF"/>
+      <property name="frequency" value="400kHz"/>
+      <property name="height" value="1.75mm"/>
+      <property name="interface" value="I2C"/>
+      <property name="ipc land pattern name" value="SOIC127P600X155-8"/>
+      <property name="lead free" value="yes"/>
+      <property name="library id" value="48331c3067913777"/>
+      <property name="manufacturer" value="ON Semi"/>
+      <property name="max supply voltage" value="5.5V"/>
+      <property name="memory size" value="256KB"/>
+      <property name="memory type" value="EEPROM"/>
+      <property name="min supply voltage" value="1.8V"/>
+      <property name="mouser description" value="ON SEMICONDUCTOR - CAT24C256WI-GT3 - SERIAL EEPROM, 256KBIT, 400KHZ, SOIC-8"/>
+      <property name="mouser part number" value="698-CAT24C256WI-GT3"/>
+      <property name="package" value="SOIC8"/>
+      <property name="rohs" value="yes"/>
+      <property name="standoff height" value="0.1mm"/>
+      <property name="temperature range high" value="+85°C"/>
+      <property name="temperature range low" value="-40°C"/>
+      <property name="Sheetname" value="Micro controller pin outs"/>
+      <property name="Sheetfile" value="micro controlter interface.kicad_sch"/>
+      <property name="ki_description" value="CAT24C256WI-GT3"/>
+      <sheetpath names="/Micro controller pin outs/" tstamps="/8d35112e-3dcb-4f8a-ab75-188a6b3d82be/"/>
+      <tstamps>029224a7-02f3-4494-8c26-d3197d7fc0d3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="TP4056_1">
+      <description>1A Standalone Linear Li-lon Battery Charger, SOP-8</description>
+      <docs>https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TP4056</field>
+        <field name="Footprint">SOIC127P600X175-9N</field>
+        <field name="Datasheet">https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf</field>
+        <field name="Description">1A Standalone Linear Li-lon Battery Charger, SOP-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">NanJing Top Power</field>
+        <field name="Manufacturer_Part_Number">TP4056</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP1" type="passive"/>
+        <pin num="2" name="PROG2" type="passive"/>
+        <pin num="3" name="GND_3" type="passive"/>
+        <pin num="4" name="VCC4" type="passive"/>
+        <pin num="5" name="BAT" type="passive"/>
+        <pin num="6" name="~{STDBY}" type="passive"/>
+        <pin num="7" name="~{CHRG}" type="passive"/>
+        <pin num="8" name="CE" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CL21B104KCFNNNE" part="CL21B104KCFNNNE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL21B104KCFNNNE</field>
+        <field name="Footprint">CAPC2012X140N</field>
+        <field name="Availability">In Stock</field>
+        <field name="MP">CL21B104KCFNNNE</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search/part/CL21B104KCFNNNE/?ref=eda</field>
+        <field name="Package">0805 Samsung</field>
+        <field name="MF">Samsung</field>
+        <field name="Price">None</field>
+        <field name="Description">\n0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)\n</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x24_Socket">
+      <description>Generic connector, single row, 01x24, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x24_Counter_Clockwise">
+      <description>Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x24_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DW01A-G" part="DW01A-G">
+      <description>One Cell Lithium-ion/Polymer Battery Protection IC</description>
+      <docs>http://acoptex.com/uploads/DW01A.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DW01A-G</field>
+        <field name="Footprint">SOT95P280X135-6N</field>
+        <field name="Datasheet">http://acoptex.com/uploads/DW01A.pdf</field>
+        <field name="Description">One Cell Lithium-ion/Polymer Battery Protection IC</field>
+        <field name="Height">1.35</field>
+        <field name="Manufacturer_Name">Fortune Semiconductor Corporation</field>
+        <field name="Manufacturer_Part_Number">DW01A-G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="passive"/>
+        <pin num="2" name="CS" type="passive"/>
+        <pin num="3" name="OC" type="passive"/>
+        <pin num="4" name="TD" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FS8205A" part="FS8205A">
+      <description>Dual N-Channel Enahncement Mode Power MOSFET</description>
+      <docs>http://www.ic-fortune.com/upload/Download/FS8205A-DS-12_EN.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FS8205A</field>
+        <field name="Footprint">SOP65P640X120-8N</field>
+        <field name="Datasheet">http://www.ic-fortune.com/upload/Download/FS8205A-DS-12_EN.pdf</field>
+        <field name="Description">Dual N-Channel Enahncement Mode Power MOSFET</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">fortune</field>
+        <field name="Manufacturer_Part_Number">FS8205A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D12_1" type="passive"/>
+        <pin num="2" name="S1_1" type="passive"/>
+        <pin num="3" name="S1_2" type="passive"/>
+        <pin num="4" name="G1" type="passive"/>
+        <pin num="5" name="G2" type="passive"/>
+        <pin num="6" name="S2_1" type="passive"/>
+        <pin num="7" name="S2_2" type="passive"/>
+        <pin num="8" name="D12_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP1700T-3302E_TT" part="MCP1700T-3302E_TT">
+      <docs>https://item.szlcsc.com/14454.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700T-3302E_TT</field>
+        <field name="Footprint">footprint:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR</field>
+        <field name="Datasheet">https://item.szlcsc.com/14454.html</field>
+        <field name="LCSC">C39051</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="HDC1080">
+      <description>Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor</description>
+      <docs>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</docs>
+      <footprints>
+        <fp>Package*SON:Texas*PWSON*N6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC1080</field>
+        <field name="Footprint">Package_SON:Texas_PWSON-N6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/hdc1080.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="DAP" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UCT" part="STLINK_UCT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STLINK_UCT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V_USB" type="power_in"/>
+        <pin num="2" name="V_Target" type="power_in"/>
+        <pin num="3" name="USB_DM" type="bidirectional"/>
+        <pin num="4" name="USB_DP" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="T_NRST" type="bidirectional"/>
+        <pin num="7" name="T_SWCLK" type="bidirectional"/>
+        <pin num="8" name="T_SWDIO" type="bidirectional"/>
+        <pin num="9" name="T_SWO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="best" part="CAT24C256WI-GT3">
+      <description>CAT24C256WI-GT3</description>
+      <docs>http://www.onsemi.com/pub/Collateral/CAT24C256-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAT24C256WI-GT3</field>
+        <field name="Footprint">ON_Semi-751BD-01-12_2008-O-*</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/CAT24C256-D.PDF</field>
+        <field name="category">IC</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">Memory</field>
+        <field name="device class L3">EEPROM</field>
+        <field name="digikey description">IC EEPROM 256K I2C 1MHZ 8SOIC</field>
+        <field name="digikey part number">CAT24C256WI-GT3OSCT-ND</field>
+        <field name="footprint url">http://www.onsemi.cn/PowerSolutions/document/751BD.PDF</field>
+        <field name="frequency">400kHz</field>
+        <field name="height">1.75mm</field>
+        <field name="interface">I2C</field>
+        <field name="ipc land pattern name">SOIC127P600X155-8</field>
+        <field name="lead free">yes</field>
+        <field name="library id">48331c3067913777</field>
+        <field name="manufacturer">ON Semi</field>
+        <field name="max supply voltage">5.5V</field>
+        <field name="memory size">256KB</field>
+        <field name="memory type">EEPROM</field>
+        <field name="min supply voltage">1.8V</field>
+        <field name="mouser description">ON SEMICONDUCTOR - CAT24C256WI-GT3 - SERIAL EEPROM, 256KBIT, 400KHZ, SOIC-8</field>
+        <field name="mouser part number">698-CAT24C256WI-GT3</field>
+        <field name="package">SOIC8</field>
+        <field name="rohs">yes</field>
+        <field name="standoff height">0.1mm</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="bidirectional"/>
+        <pin num="2" name="A1" type="bidirectional"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Temperature-Sensors-Analog-and-Digital-Output" part="MCP9701AT-E_TT">
+      <description>SENSOR ANALOG -10C-125C SOT23-3</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP9701AT-E_TT</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859</field>
+        <field name="Digi-Key_PN">MCP9701AT-E/TTCT-ND</field>
+        <field name="MPN">MCP9701AT-E/TT</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Temperature Sensors - Analog and Digital Output</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/MCP9701AT-E-TT/MCP9701AT-E-TTCT-ND/1987449</field>
+        <field name="Description">SENSOR ANALOG -10C-125C SOT23-3</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="DW01A-G">
+      <uri>C:/Users/Best Nkhumeleni/Desktop/3088F_group22/EEE3088F_group22_2023/Overall schematic/Foot prints/DW01A/DW01A-G.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FS8205A">
+      <uri>C:/Users/Best Nkhumeleni/Desktop/3088F_group22/EEE3088F_group22_2023/Overall schematic/Foot prints/FB8205A/FS8205A.lib</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Humidity.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="best">
+      <uri>C:/Users/Best Nkhumeleni/Documents/KiCad/7.0/symbols/best.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Battery+">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/Battery-">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Micro controller pin outs/BOOT">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="44" pinfunction="Pin_44" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/Micro controller pin outs/NRST">
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="T_NRST" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Micro controller pin outs/PA0">
+      <node ref="J12" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="6" name="/Micro controller pin outs/PA1">
+      <node ref="J12" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="7" name="/Micro controller pin outs/PA2">
+      <node ref="J12" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="8" name="/Micro controller pin outs/PA3">
+      <node ref="J12" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J9" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="9" name="/Micro controller pin outs/PA4">
+      <node ref="J12" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J9" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="10" name="/Micro controller pin outs/PA5">
+      <node ref="J12" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J9" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="11" name="/Micro controller pin outs/PA6">
+      <node ref="J12" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J9" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="12" name="/Micro controller pin outs/PA7">
+      <node ref="J12" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J9" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="13" name="/Micro controller pin outs/PA8">
+      <node ref="J13" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J9" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="14" name="/Micro controller pin outs/PA9">
+      <node ref="J13" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J9" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="T_SWCLK" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Micro controller pin outs/PA10">
+      <node ref="J13" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J9" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="T_SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Micro controller pin outs/PA11">
+      <node ref="J13" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J9" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="17" name="/Micro controller pin outs/PA12">
+      <node ref="J13" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J9" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="18" name="/Micro controller pin outs/PA13">
+      <node ref="J13" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J9" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="19" name="/Micro controller pin outs/PA14">
+      <node ref="J13" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="37" pinfunction="Pin_37" pintype="passive"/>
+    </net>
+    <net code="20" name="/Micro controller pin outs/PA15">
+      <node ref="J13" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J9" pin="38" pinfunction="Pin_38" pintype="passive"/>
+    </net>
+    <net code="21" name="/Micro controller pin outs/PB0">
+      <node ref="J12" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J9" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="22" name="/Micro controller pin outs/PB1">
+      <node ref="J12" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J9" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="23" name="/Micro controller pin outs/PB2">
+      <node ref="J12" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J9" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="24" name="/Micro controller pin outs/PB3">
+      <node ref="J13" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="39" pinfunction="Pin_39" pintype="passive"/>
+    </net>
+    <net code="25" name="/Micro controller pin outs/PB4">
+      <node ref="J13" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="40" pinfunction="Pin_40" pintype="passive"/>
+    </net>
+    <net code="26" name="/Micro controller pin outs/PB5">
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J9" pin="41" pinfunction="Pin_41" pintype="passive"/>
+    </net>
+    <net code="27" name="/Micro controller pin outs/PB6">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="42" pinfunction="Pin_42" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="28" name="/Micro controller pin outs/PB7">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="43" pinfunction="Pin_43" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="29" name="/Micro controller pin outs/PB8">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="45" pinfunction="Pin_45" pintype="passive"/>
+    </net>
+    <net code="30" name="/Micro controller pin outs/PB9">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="46" pinfunction="Pin_46" pintype="passive"/>
+    </net>
+    <net code="31" name="/Micro controller pin outs/PB12">
+      <node ref="J13" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J9" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="32" name="/Micro controller pin outs/PB13">
+      <node ref="J13" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J9" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="33" name="/Micro controller pin outs/PB14">
+      <node ref="J13" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J9" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="34" name="/Micro controller pin outs/PB15">
+      <node ref="J13" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J9" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="35" name="/Micro controller pin outs/PC13">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="36" name="/Micro controller pin outs/PC14">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="37" name="/Micro controller pin outs/PC15">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="38" name="/Micro controller pin outs/PF0">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="39" name="/Micro controller pin outs/PF1">
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="40" name="/Micro controller pin outs/PF6">
+      <node ref="J13" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J9" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="41" name="/Micro controller pin outs/PF7">
+      <node ref="J13" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J9" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="42" name="/Micro controller pin outs/VDDA">
+      <node ref="J12" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="43" name="/Power module/5V">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/Power module/OC">
+      <node ref="IC1" pin="3" pinfunction="OC" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="G1" pintype="passive"/>
+    </net>
+    <net code="45" name="/Power module/OD">
+      <node ref="IC1" pin="1" pinfunction="OD" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="G2" pintype="passive"/>
+    </net>
+    <net code="46" name="/Power module/V_Battery">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="47" name="/Power module/Vcc_IC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="VCC4" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="CE" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="/SCL">
+      <node ref="J12" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J9" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="49" name="/SDA">
+      <node ref="J12" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J9" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/Supply_Voltage">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J12" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J9" pin="48" pinfunction="Pin_48" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="V_Target" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="51" name="Data +">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Data -">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J12" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="TEMP1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J9" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J9" pin="47" pinfunction="Pin_47" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S1_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S1_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(#FLG01-pwr)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VOUT" pintype="power_in"/>
+    </net>
+    <net code="55" name="Net-(#FLG03-pwr)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="56" name="Net-(#FLG05-pwr)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(#FLG08-pwr)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="58" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(IC1-CS)">
+      <node ref="IC1" pin="2" pinfunction="CS" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(IC1-GND)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="S2_1" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="S2_2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC1-VCC)">
+      <node ref="IC1" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(J3-BAT)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="BAT" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(J3-PROG2)">
+      <node ref="J3" pin="2" pinfunction="PROG2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(J3-~{CHRG})">
+      <node ref="J3" pin="7" pinfunction="~{CHRG}" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J3-~{STDBY})">
+      <node ref="J3" pin="6" pinfunction="~{STDBY}" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Vreg_Out">
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="5V_USB" pintype="power_in"/>
+    </net>
+    <net code="68" name="unconnected-(IC1-TD-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="TD" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J1-ID-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J3-EP-Pad9)">
+      <node ref="J3" pin="9" pinfunction="EP" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(Q1-D12_1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="D12_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(Q1-D12_2-Pad8)">
+      <node ref="Q1" pin="8" pinfunction="D12_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U2-DAP-Pad7)">
+      <node ref="U2" pin="7" pinfunction="DAP" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U2-NC-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-T_SWO-Pad9)">
+      <node ref="U3" pin="9" pinfunction="T_SWO" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

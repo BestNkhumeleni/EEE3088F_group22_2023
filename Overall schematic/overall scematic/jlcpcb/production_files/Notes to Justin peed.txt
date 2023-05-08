@@ -1,0 +1,9 @@
+For some reason when submiting the files to jlc, parts J10,J2,J4,J5,J7,J8,J19,J6 keep saying they arent selected even though they are populated in the BOM.
+
+may you please manually search for partnumber:
+C3012204 or C5116481 and manualy select either of those two components in their place
+
+Sorry for this inconvinience
+
+Kind regards
+Best
